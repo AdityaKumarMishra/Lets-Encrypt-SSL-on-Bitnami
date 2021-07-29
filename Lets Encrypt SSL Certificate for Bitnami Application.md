@@ -202,7 +202,7 @@ After reconfirming that your domain name points to the public IP address of the 
 
 This should display the secure welcome page of the Bitnami application. Clicking the padlock icon in the browser address bar should display the details of the domain and SSL certificate.
 
-![Let’s Encrypt certificate in action(clip_image004.jpg)
+![Let’s Encrypt certificate in action](clip_image004.jpg)
 
 #### Step 5: Renew The Let’s Encrypt Certificate
 
