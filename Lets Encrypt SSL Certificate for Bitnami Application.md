@@ -1,4 +1,4 @@
-Generate And Install A Let's Encrypt SSL Certificate For A Bitnami Application
+# Generate And Install A Let's Encrypt SSL Certificate For A Bitnami Application
 
 ### Introduction
 
@@ -127,7 +127,7 @@ An output message will provide some information, including the expiry date of th
 
 An example certificate is shown below:
 
-[![Let’s Encrypt CA certificate](E:\AA\clip_image002.jpg)](https://docs.bitnami.com/images/img/how_to_guides/generate-install-lets-encrypt-ssl/lets-encrypt-1.png)
+![Let’s Encrypt CA certificate](clip_image002.jpg)(https://docs.bitnami.com/images/img/how_to_guides/generate-install-lets-encrypt-ssl/lets-encrypt-1.png)
 
 NOTE: The steps described above will generate certificates for one or more explicitly-named domains. To generate a certificate for a wildcard domain, you will need to use DNS-01 validation when running the *lego* tool, as explained in the [official Let’s Encrypt documentation](https://letsencrypt.org/docs/challenge-types/).
 
@@ -202,7 +202,7 @@ After reconfirming that your domain name points to the public IP address of the 
 
 This should display the secure welcome page of the Bitnami application. Clicking the padlock icon in the browser address bar should display the details of the domain and SSL certificate.
 
-[![Let’s Encrypt certificate in action](E:\AA\clip_image004.jpg)](https://docs.bitnami.com/images/img/how_to_guides/generate-install-lets-encrypt-ssl/lets-encrypt-2.png)
+![Let’s Encrypt certificate in action(clip_image004.jpg)
 
 #### Step 5: Renew The Let’s Encrypt Certificate
 
